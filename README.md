@@ -18,7 +18,8 @@ docker pull cedricbl/tf-serving-universal-amd64
 
 git clone https://github.com/tensorflow/serving
 # Location of demo models
-TESTDATA="$(pwd)/serving/tensorflow_serving/servables/tensorflow/testdata"
+TESTDATA="$(pwd)/serving/tensorflow_serving/servables/tensorflow/testdata" # bash
+# set TESTDATA (pwd)"/serving/tensorflow_serving/servables/tensorflow/testdata" # fish
 
 # Start TensorFlow Serving container and open the REST API port
 docker run -t --rm -p 8501:8501 \

@@ -1,6 +1,6 @@
 # tensorflow-model-server-universal-docker
 
-> Simple tensorflow-model-server-universal docker image - that runs on Macbook M1 Pro.
+> Simple `tensorflow-model-server-universal` docker image - that runs on Macbook M1 Pro.
 
 ## Motivation
 
